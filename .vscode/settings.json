@@ -7,9 +7,15 @@
         "-p",
         "test_*.py"
     ],
-    "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
     "cSpell.words": [
-        "sfmi"
+        "gunicorn",
+        "nostatic",
+        "sfmi",
+        "wsgi"
+    ],
+    "python.testing.pytestArgs": [
+        "blog"
     ]
 }
